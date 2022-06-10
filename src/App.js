@@ -7,7 +7,7 @@ import Work from "./Components/Work"
 
 function App() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Navbar />
       <Home />
       <About />
