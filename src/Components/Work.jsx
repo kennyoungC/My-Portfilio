@@ -44,7 +44,7 @@ const Work = () => {
                 </a>
                 <a href="https://github.com/kennyoungC/Oge-Food-Delivery">
                   <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    &lt;Code/&gt;
                   </button>
                 </a>
               </div>
@@ -68,7 +68,7 @@ const Work = () => {
                 </a>
                 <a href="https://github.com/kennyoungC/rest-countries-api-with-color-theme-switcher-master">
                   <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    &lt;Code/&gt;
                   </button>
                 </a>
               </div>
@@ -93,7 +93,7 @@ const Work = () => {
                 </a>
                 <a href="https://github.com/kennyoungC/team-spotify-project">
                   <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    &lt;Code/&gt;
                   </button>
                 </a>
               </div>
@@ -120,7 +120,7 @@ const Work = () => {
                 </a>
                 <a href="https://github.com/kennyoungC/M2-D3">
                   <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    &lt;Code/&gt;
                   </button>
                 </a>
               </div>
@@ -145,7 +145,7 @@ const Work = () => {
                 </a>
                 <a href="https://github.com/kennyoungC/time-tracking-dashboard-main">
                   <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    &lt;Code/&gt;
                   </button>
                 </a>
               </div>
@@ -169,7 +169,7 @@ const Work = () => {
                 </a>
                 <a href="https://github.com/kennyoungC/tip-calculator-app-main">
                   <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    &lt;Code/&gt;
                   </button>
                 </a>
               </div>

@@ -6,7 +6,6 @@ import {
   FaFacebook,
   FaLinkedinIn,
 } from "react-icons/fa"
-import { BsToggleOn } from "react-icons/bs"
 import { HiOutlineMail } from "react-icons/hi"
 import { BsFillPersonLinesFill } from "react-icons/bs"
 import Logo from "../assets/KO-removebg-preview.png"
