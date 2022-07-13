@@ -5,7 +5,6 @@ import spotifyImg from "../assets/spotify.png"
 import travelImg from "../assets/travels.png"
 import tipApp from "../assets/tipapp.png"
 import joblisting from "../assets/joblisting.png"
-import timetrackingImg from "../assets/timetracking.png"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
@@ -21,7 +20,7 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#fe764c]">
             Work
           </p>
-          <p className="py-6">// Check out some of my recent work</p>
+          <p className="py-6">&lt;/&gt; Check out some of my recent work</p>
         </div>
 
         {/* Container */}

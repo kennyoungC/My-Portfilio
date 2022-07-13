@@ -23,7 +23,9 @@ const Skills = () => {
           <p className="text-4xl font-bold inline border-b-4 border-[#fe764c]">
             Skills
           </p>
-          <p className="py-4">// These are the technologies I've worked with</p>
+          <p className="py-4">
+            &lt;/&gt; These are the technologies I've worked with
+          </p>
         </div>
 
         <div
