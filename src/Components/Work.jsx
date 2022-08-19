@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react"
 import WorkImg from "../assets/food-delivery.png"
 import countryApi from "../assets/countryapi.png"
@@ -5,6 +6,7 @@ import spotifyImg from "../assets/spotify.png"
 import travelImg from "../assets/travels.png"
 import tipApp from "../assets/tipapp.png"
 import joblisting from "../assets/joblisting.png"
+import kenzon from "../assets/kenzon_strore.png"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
@@ -20,12 +22,36 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#fe764c]">
             Work
           </p>
-          <p className="py-6">&lt;/&gt; Check out some of my recent work</p>
+          <p className="py-6">// Check out some of my recent work</p>
         </div>
 
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
+          <div
+            data-aos="flip-right"
+            style={{ backgroundImage: `url(${kenzon})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                React JS/Node JS
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://amazon-clone-fe.vercel.app">
+                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/kennyoungC/Amazon-clone-FE/tree/main/amazon-clone-fe">
+                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    &lt;Code/&gt;
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div
             data-aos="flip-right"
             style={{ backgroundImage: `url(${joblisting})` }}

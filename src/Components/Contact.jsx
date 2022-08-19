@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
@@ -23,7 +24,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            &lt;/&gt; Submit the form below or shoot me an email -
+            // Submit the form below or shoot me an email -
             obikenneth913@gmail.com
           </p>
         </div>

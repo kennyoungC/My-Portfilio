@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import HTML from "../assets/html.png"
 import CSS from "../assets/css.png"
 import JavaScript from "../assets/javascript.png"
@@ -6,6 +7,7 @@ import Node from "../assets/node.png"
 import FireBase from "../assets/firebase.png"
 import GitHub from "../assets/github.png"
 import Tailwind from "../assets/tailwind.png"
+import typescript from "../assets/Typescript_logo_2020.svg-removebg-preview.png"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
@@ -23,9 +25,7 @@ const Skills = () => {
           <p className="text-4xl font-bold inline border-b-4 border-[#fe764c]">
             Skills
           </p>
-          <p className="py-4">
-            &lt;/&gt; These are the technologies I've worked with
-          </p>
+          <p className="py-4">// These are the technologies I've worked with</p>
         </div>
 
         <div
@@ -43,6 +43,10 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={JavaScript} alt="HTML icon" />
             <p className="my-4">JAVASCRIPT</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={typescript} alt="HTML icon" />
+            <p className="my-4">TYPESCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon" />
