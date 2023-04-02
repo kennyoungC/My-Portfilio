@@ -28,54 +28,7 @@ const Work = () => {
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
-          <div
-            data-aos="flip-right"
-            style={{ backgroundImage: `url(${kenzon})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React JS/Node JS
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://amazon-clone-fe.vercel.app">
-                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/kennyoungC/Amazon-clone-FE/tree/main/amazon-clone-fe">
-                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    &lt;Code/&gt;
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            data-aos="flip-right"
-            style={{ backgroundImage: `url(${joblisting})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://job-listing-kenneth.netlify.app">
-                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/kennyoungC/Job-Listings.git">
-                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    &lt;Code/&gt;
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+
           <div
             data-aos="flip-down"
             style={{ backgroundImage: `url(${WorkImg})` }}
