@@ -4,9 +4,9 @@ import WorkImg from "../assets/food-delivery.png"
 import countryApi from "../assets/countryapi.png"
 import spotifyImg from "../assets/spotify.png"
 import travelImg from "../assets/travels.png"
-import tipApp from "../assets/tipapp.png"
-import joblisting from "../assets/joblisting.png"
-import kenzon from "../assets/kenzon_strore.png"
+import rentalls from "../assets/rentalls.png"
+import apartmentholdings from "../assets/apartmentHolding.png"
+import gecommerce from "../assets/gecommerce.png"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { useEffect } from "react"
@@ -30,6 +30,105 @@ const Work = () => {
           {/* Grid Item */}
 
           <div
+            data-aos="flip-left"
+            style={{ backgroundImage: `url(${apartmentholdings})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold  text-white tracking-wider">
+                REACT/GATSBY JS
+              </span>
+              <br />
+              <span className="text-xs font-light text-center text-white tracking-wider">
+                APARTMENTHOLDINGS
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://apartmentholdings.sk/en/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                {/* <a href="#">
+                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    &lt;Code/&gt;
+                  </button>
+                </a> */}
+              </div>
+            </div>
+          </div>
+          {/* Grid Item */}
+          <div
+            data-aos="flip-right"
+            style={{ backgroundImage: `url(${rentalls})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                REACT/GATSBY JS
+              </span>
+              <br />
+              <span className="text-xs font-light text-center text-white tracking-wider">
+                RENTALLS
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://rentalls.com/en"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                {/* <a href="https://github.com/kennyoungC/team-spotify-project">
+                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    &lt;Code/&gt;
+                  </button>
+                </a> */}
+              </div>
+            </div>
+          </div>
+          {/* Grid Item */}
+          <div
+            data-aos="flip-left"
+            style={{ backgroundImage: `url(${gecommerce})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                REACT/NEXTJS
+              </span>
+              <br />
+              <span className="text-xs font-light text-center text-white tracking-wider">
+                GECOMMERCE
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://gecommerce.io"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className=" text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#fe764c]">
+                    Demo
+                  </button>
+                </a>
+                {/* <a href="#">
+                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    &lt;Code/&gt;
+                  </button>
+                </a> */}
+              </div>
+            </div>
+          </div>
+          {/* Grid Item */}
+          <div
             data-aos="flip-down"
             style={{ backgroundImage: `url(${WorkImg})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -37,39 +136,23 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                React JS
+              </span>
+              <br />
+              <span className="text-xs font-light text-center text-white tracking-wider">
+                FOOD APP
               </span>
               <div className="pt-8 text-center">
-                <a href="https://precious-food-delivery.netlify.app/">
+                <a
+                  href="https://precious-food-delivery.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/kennyoungC/Oge-Food-Delivery">
-                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    &lt;Code/&gt;
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            data-aos="flip-left"
-            style={{ backgroundImage: `url(${countryApi})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Vanilla JS Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://kennyoungc.github.io/rest-countries-api-with-color-theme-switcher-master/index.html">
-                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/kennyoungC/rest-countries-api-with-color-theme-switcher-master">
                   <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     &lt;Code/&gt;
                   </button>
@@ -86,10 +169,18 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Vanilla JS Application
+                Vanilla JS
+              </span>
+              <br />
+              <span className="text-xs font-light text-center text-white tracking-wider">
+                SPOTIFY CLONE
               </span>
               <div className="pt-8 text-center">
-                <a href="https://kennyoungc.github.io/team-spotify-project/">
+                <a
+                  href="https://kennyoungc.github.io/team-spotify-project/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -103,31 +194,6 @@ const Work = () => {
             </div>
           </div>
           {/* Grid Item */}
-
-          <div
-            data-aos="flip-left"
-            style={{ backgroundImage: `url(${tipApp})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Vanilla JS Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://tip-app-calculator-kenneth.netlify.app">
-                  <button className=" text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#fe764c]">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/kennyoungC/tip-calculator-app-main">
-                  <button className="hover:bg-[#fe764c] text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    &lt;Code/&gt;
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
           <div
             data-aos="flip-up"
             style={{ backgroundImage: `url(${travelImg})` }}
@@ -136,7 +202,11 @@ const Work = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                HTML/CSS Application
+                HTML/CSS
+              </span>
+              <br />
+              <span className="text-xs font-light text-center text-white tracking-wider">
+                TRAVEL LANDING PAGE
               </span>
               <div className="pt-8 text-center">
                 <a

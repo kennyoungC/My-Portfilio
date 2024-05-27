@@ -15,9 +15,12 @@ const Home = () => {
           I'm a Full-Stack Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I’m a full-stack web developer with years of hands-on experience
-          designing, developing, and implementing applications and solutions
-          using a range of technologies and programming languages.
+          A Final-year Informatics student with a strong programming background,
+          specializing in full-stack development with a focus on front-end
+          technologies. Experienced in customer service and proficient in data
+          analysis, I am eager to contribute my skills to international
+          projects, particularly in crafting intuitive user interfaces and
+          enhancing user experiences
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
