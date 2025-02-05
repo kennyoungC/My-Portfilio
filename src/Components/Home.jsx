@@ -15,12 +15,11 @@ const Home = () => {
           I'm a Full-Stack Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          A Final-year Informatics student with a strong programming background,
-          specializing in full-stack development with a focus on front-end
-          technologies. Experienced in customer service and proficient in data
-          analysis, I am eager to contribute my skills to international
-          projects, particularly in crafting intuitive user interfaces and
-          enhancing user experiences
+          With a strong focus on front-end development. I enjoy building
+          intuitive and responsive user interfaces that enhance user experience.
+          While I have some knowledge of back-end development, my main expertise
+          is in front-end technologies. I'm eager to work on international
+          projects and create smooth, engaging web applications.
         </p>
         <div>
           <Link to="work" smooth={true} duration={500}>
